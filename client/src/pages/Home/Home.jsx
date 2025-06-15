@@ -43,7 +43,7 @@ const Home = ({ user }) => {
           <div className={styles.aboutCard}>
             <h2 className={styles.aboutTitle}>About the Developers</h2>
             <p className={styles.aboutText}>
-              This project was developed by [Your Name] and [Partner's Name].
+              This project was developed by Claude and Rouge
               We are passionate about web development and creating user-friendly applications.
               This project showcases our skills in React, Node.js, Express, and MySQL.
             </p>
