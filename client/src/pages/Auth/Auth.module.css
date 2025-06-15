@@ -1,0 +1,38 @@
+.authPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+}
+
+.authContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.appTitle {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.appDescription {
+  text-align: center;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .appTitle {
+    font-size: 2rem;
+  }
+}
